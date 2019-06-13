@@ -1,0 +1,22 @@
+{
+	"name": "bull-quque",
+	"version": "1.0.0",
+	"description": "",
+	"main": "server.js",
+	"scripts": {
+		"start": "node -r esm server.js",
+		"dev": "nodemon -r esm server.js",
+		"worker": "node -r esm worker.js",
+		"worker:dev": "nodemon -r esm worker.js"
+	},
+	"license": "UNLICENSED",
+	"dependencies": {
+		"axios": "^0.19.0",
+		"body-parser": "^1.19.0",
+		"bull": "^3.10.0",
+		"bull-arena": "^2.6.3",
+		"esm": "^3.2.25",
+		"express": "^4.17.1",
+		"nodemon": "^1.19.1"
+	}
+}
